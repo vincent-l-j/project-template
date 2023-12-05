@@ -16,4 +16,4 @@ jobs:
 
       - name: Validate PR Title
         run: |
-          node .github/scripts/validate_pr_title.js "$GITHUB_EVENT_NAME"
+          node .github/scripts/validate-pr-title.js "$GITHUB_EVENT_NAME"
