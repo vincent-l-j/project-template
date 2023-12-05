@@ -1,5 +1,5 @@
 // validate-pr-title.js
-const conventionalCommitRegex = /^(revert: )?(feat|fix|docs|style|refactor|test|chore)(\(.+\))?: .{1,100}/;
+const conventionalCommitRegex = /^(revert: )?(feat|fix|docs|style|refactor|test|chore|ci)(\(.+\))?: .{1,100}/;
 
 const prTitle = process.argv[2];
 
