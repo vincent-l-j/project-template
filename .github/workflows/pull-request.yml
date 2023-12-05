@@ -16,4 +16,5 @@ jobs:
 
       - name: Validate PR Title
         run: |
+          echo "The Title of your PR is ${{ github.event.pull_request.title }}"
           node .github/scripts/validate-pr-title.js ${{ github.event.pull_request.title }}
