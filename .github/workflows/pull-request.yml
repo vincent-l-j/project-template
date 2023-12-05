@@ -1,0 +1,19 @@
+name: Pull Request Validation
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  validate-pr-title:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Validate PR Title
+        run: |
+          node .github/scripts/validate_pr_title.js "$GITHUB_EVENT_NAME"
