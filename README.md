@@ -36,7 +36,7 @@ The template and title checks are automated using GitHub Actions.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 Thank you for using the Project Template!
 If you have any questions or encounter issues, please open an
