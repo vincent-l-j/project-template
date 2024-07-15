@@ -20,7 +20,7 @@ Below, you'll find information on how to get started and details about the autom
 ### 1. Changelog Generation
 
 We automatically generate a changelog based on commit messages using the
-[Release Please](https://github.com/google-github-actions/release-please-action)
+[Release Please](https://github.com/googleapis/release-please-action)
 GitHub Action.
 The Release Please GitHub Action opens or updates a pull request that will:
 
