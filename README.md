@@ -1,5 +1,6 @@
 # Project Template with Automated Workflows
 
+<!-- prettier-ignore -->
 Welcome to the Project Template repository!
 This repository serves as a template for new projects.
 It comes with automated workflows to streamline development processes.
@@ -19,6 +20,7 @@ Below, you'll find information on how to get started and details about the autom
 
 ### 1. Changelog Generation
 
+<!-- prettier-ignore -->
 We automatically generate a changelog based on commit messages using the
 [Release Please](https://github.com/googleapis/release-please-action)
 GitHub Action.
@@ -30,6 +32,7 @@ The Release Please GitHub Action opens or updates a pull request that will:
 
 ### 2. Pull Request Template and Title Enforcement
 
+<!-- prettier-ignore -->
 When creating a pull request, make sure to follow the template provided.
 Additionally, we enforce specific rules for pull request titles.
 The template and title checks are automated using GitHub Actions.
@@ -38,6 +41,7 @@ The template and title checks are automated using GitHub Actions.
 
 This project is licensed under the [MIT License](LICENSE).
 
+<!-- prettier-ignore -->
 Thank you for using the Project Template!
 If you have any questions or encounter issues, please open an
 [issue](https://github.com/vincent-l-j/project-template/issues).
